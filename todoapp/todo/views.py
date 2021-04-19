@@ -6,8 +6,6 @@ from todo.models import Todo
 from todo.permissions import IsOwnerOrReadOnly
 
 
-
-
 class TodoCreateView(generics.CreateAPIView):
     serializer_class = TodoDetailSerializer
     queryset = Todo.objects.all()
