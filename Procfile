@@ -1,1 +1,1 @@
-web: gunicorn public_chat.wsgi
+web: gunicorn todoapp.wsgi
